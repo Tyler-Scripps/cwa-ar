@@ -7,8 +7,8 @@
     <script src="https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <body style='margin : 0px; overflow: hidden;'>
         <a-scene vr-mode-ui="enabled: false" embedded arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        <a-camera gps-camera rotation-reader></a-camera>
-        <a-entity look-at="[gps-camera]" geometry="primitive: plane; height: 10; width: 10" gps-entity-place="x.xxx; longitude: y.yyy;"/>
+            <a-camera gps-camera rotation-reader></a-camera>
+            <a-entity look-at="[gps-camera]" geometry="primitive: plane; height: 10; width: 10" gps-entity-place="x.xxx; longitude: y.yyy;"/>
 	    </a-scene>
     </body>
 </html>
